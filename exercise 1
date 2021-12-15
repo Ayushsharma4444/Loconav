@@ -1,1 +1,126 @@
+.................................................................................HTML......................................................................
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise1</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="login-box">
+        <img src="ex1_brand_icon.png" alt="image">
+
+
+        <div class="textbox">
+            <!-- <img class="img1" src="ex1_username_icon.png" alt="image"> -->
+        <i class="fa fa-user" aria-hidden="true"></i>
+      
+        <input type="text" placeholder="Name" >
+        </div>
+
+
+        <div class="passwordbox">
+            <!-- <img src="ex1_password_icon.png" alt="image"> -->
+            <i class="fa fa-lock" aria-hidden="true"></i>
+            <input type="password" placeholder="Password">
+        </div>
+
+
+        
+            <button class="btn">Log-in</button>
+       
+
+    </div>
+    
+</body>
+</html>
+
+.......................................................................................style.css.............................................................................
+
+@import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" ;
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(9 127 237 / 69%) ;
+}
+.login-box{
+
+    margin-left: 400px;
+    margin-top: 53px;
+    background-color: white;
+    width: 616px;
+    height: 616px;
+   
+    border-radius: 10px;
+    
+}
+
+.login-box img{
+    text-align: center;
+   
+    margin-left:240px;
+    width: 127px;
+    margin-top: 115px;
+}
+
+ .textbox{
+    width: 40%;
+   
+    font-size: 20px;
+   
+    border-bottom: 2px solid grey;
+    padding: 5px;
+    margin-left: 177px;
+} 
+
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.passwordbox{
+    width: 40%;
+    border-bottom: 2px solid grey;
+    padding: 5px;
+    margin-top: 25px;
+    margin-left: 177px;
+    float: inline-end;
+}
+.passwordbox input{
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.btn{
+    margin-top: 45px;
+    font-size: 20px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(228, 2, 51);
+    width: 40%;
+    margin-left: 177px;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
